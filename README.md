@@ -1,6 +1,5 @@
 # MCP
-Official Implementation of [MCP (Mixing Corrupted Preferences)](https://openreview.net/forum?id=kCcIYc98ho) (ICLR 2024 Submission version). Our implementation is based on the official codebase of [B-Pref](https://github.com/rll-research/BPref) and [SURF](https://github.com/alinlab/SURF).
-
+Official Implementation of [MCP (Mixing Corrupted Preferences)](https://openreview.net/forum?id=kCcIYc98ho) (ICLR 2024 Submission version). 
 <p align="center"><img src="./pngs/MCP.png" width="900" height="450"></p>
 
 ## Human Evaluation Results
@@ -138,4 +137,18 @@ python train_PEBBLE_semi.py env=metaworld_sweep-into-v2 agent.params.actor_lr=0.
 #### SURF + MCP
 ```bash
 python train_PEBBLE_semi_mixup.py env=metaworld_sweep-into-v2 agent.params.actor_lr=0.0003 agent.params.critic_lr=0.0003  num_train_steps=1000000 agent.params.batch_size=512 double_q_critic.params.hidden_dim=256 double_q_critic.params.hidden_depth=3 diag_gaussian_actor.params.hidden_dim=256 diag_gaussian_actor.params.hidden_depth=3 num_unsup_steps=9000 reward_batch=50 num_interact=5000 max_feedback=10000 feed_type=1 reward_update=10 reset_update=100 segment=25 mixup_alpha=0.5 threshold_u=0.999 teacher_beta=-1 teacher_gamma=1 teacher_eps_skip=0 teacher_eps_mistake=0 teacher_eps_equal=0
+```
+
+## Acknowledgement
+Our implementation benefits from the official codebase of [B-Pref](https://github.com/rll-research/BPref), [SURF](https://github.com/alinlab/SURF), [RUNE](https://github.com/rll-research/rune), and [MRN](https://github.com/RyanLiu112/MRN). We appreciate their insightful works.
+
+## Citation
+```latex
+@misc{
+heo2024mixing,
+title={Mixing Corrupted Preferences for Robust and Feedback-Efficient Preference-Based Reinforcement Learning},
+author={Jongkook Heo and Young Jae Lee and Jaehoon Kim and Min Gu Kwak and Youngjoon Park and Seoung Bum Kim},
+year={2024},
+url={https://openreview.net/forum?id=kCcIYc98ho}
+}
 ```
