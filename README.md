@@ -4,11 +4,10 @@ Official Implementation of [MCP (Mixing Corrupted Preferences)](https://openrevi
 <p align="center"><img src="./pngs/MCP.png" width="900" height="450"></p>
 
 ## Human Evaluation Results
-### DMControl Walker
+### DMControl Walker : PEBBLE(Left) and MCP(Right)
 <p align="center">
   <img src="./videos/pebble.gif" align="center" width="32%">
   <img src="./videos/mcp.gif" align="center" width="32%">
-  <figcaption align="center">PEBBLE(Left) and MCP(Right)</figcaption>
 </p>
 
 ```bash
