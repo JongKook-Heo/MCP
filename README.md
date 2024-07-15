@@ -1,7 +1,7 @@
 # MCP
 Official Implementation of [MCP (Mixing Corrupted Preferences)](https://openreview.net/forum?id=kCcIYc98ho) (ICLR 2024 Submission version). Our implementation is based on the official codebase of [B-Pref](https://github.com/rll-research/BPref) and [SURF](https://github.com/alinlab/SURF).
 
-<p align="center"><img src="./pngs/MC.PNG" width="600" height="300"></p>
+<p align="center"><img src="./pngs/MCP.PNG" width="600" height="300"></p>
 
 ## Human Evaluation Results
 ### DMControl Walker
@@ -10,6 +10,7 @@ Official Implementation of [MCP (Mixing Corrupted Preferences)](https://openrevi
   <img src="./videos/mcp.gif" align="center" width="32%">
   <figcaption align="center">PEBBLE(Left) and MCP(Right)</figcaption>
 </p>
+
 ```bash
 for seed in 12345 23451 34512 45123 51234 67890 78906 89067 90678 6789; do
 # PEBBLE
