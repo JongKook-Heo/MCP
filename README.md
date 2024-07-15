@@ -1,5 +1,10 @@
 # MCP
-Our implementation is based on the official codebase of [B-Pref](https://github.com/rll-research/BPref) and [SURF](https://github.com/alinlab/SURF).
+Official Implementation of [MCP (Mixing Corrupted Preferences)](https://openreview.net/forum?id=kCcIYc98ho) (ICLR 2024 Submission version). Our implementation is based on the official codebase of [B-Pref](https://github.com/rll-research/BPref) and [SURF](https://github.com/alinlab/SURF).
+![MCP](pngs/MCP framework.png)
+## Human Evaluation Results
+### PEBBLE
+
+### MCP
 
 ## How to Install
 
