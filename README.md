@@ -1,12 +1,12 @@
 # MCP
 Official Implementation of [MCP (Mixing Corrupted Preferences)](https://openreview.net/forum?id=kCcIYc98ho) (ICLR 2024 Submission version). Our implementation is based on the official codebase of [B-Pref](https://github.com/rll-research/BPref) and [SURF](https://github.com/alinlab/SURF).
 
-<p align="center"><img src="./pngs/MCP.png" width="600" height="300"></p>
+<p align="center"><img src="./pngs/MCP.png" width="900" height="450"></p>
 
 ## Human Evaluation Results
 ### DMControl Walker
 <p align="center">
-  <img src="./videos/mcp.gif" align="center" width="32%">
+  <img src="./videos/pebble.gif" align="center" width="32%">
   <img src="./videos/mcp.gif" align="center" width="32%">
   <figcaption align="center">PEBBLE(Left) and MCP(Right)</figcaption>
 </p>
