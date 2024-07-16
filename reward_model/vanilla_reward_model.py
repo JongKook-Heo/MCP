@@ -220,11 +220,9 @@ class RewardModel:
         if len(self.inputs[-1]) < len_traj:
             max_len = max_len - 1
         
-        #완전히 끝난 에피소드들
         train_inputs = np.array(self.inputs[:max_len])
         train_targets = np.array(self.targets[:max_len])
         
-        #에피소드 인덱스
         batch_index_1 = np.random.choice(max_len, size=mb_size, replace=True)
         batch_index_2 = np.random.choice(max_len, size=mb_size, replace=True)
         
