@@ -1,5 +1,5 @@
 # MCP
-Official Implementation of [MCP (Mixing Corrupted Preferences)](https://openreview.net/forum?id=kCcIYc98ho) (ICLR 2024 Submission version). 
+Official Implementation of [MCP (Mixing Corrupted Preferences)](https://www.sciencedirect.com/science/article/pii/S0950705124014588) (Knowledge-Based Systems). 
 <p align="center"><img src="./pngs/MCP.png" width="900" height="450"></p>
 
 ## Human Evaluation Results
@@ -144,11 +144,12 @@ Our implementation benefits from the official codebase of [B-Pref](https://githu
 
 ## Citation
 ```latex
-@misc{
-heo2024mixing,
-title={Mixing Corrupted Preferences for Robust and Feedback-Efficient Preference-Based Reinforcement Learning},
-author={Jongkook Heo and Young Jae Lee and Jaehoon Kim and Min Gu Kwak and Youngjoon Park and Seoung Bum Kim},
-year={2024},
-url={https://openreview.net/forum?id=kCcIYc98ho}
+@article{heo2024mixing,
+  title={Mixing Corrupted Preferences for Robust and Feedback-Efficient Preference-Based Reinforcement Learning},
+  author={Heo, Jongkook and Lee, Young Jae and Kim, Jaehoon and Kwak, Min Gu and Park, Young Joon and Kim, Seoung Bum},
+  journal={Knowledge-Based Systems},
+  pages={112824},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
