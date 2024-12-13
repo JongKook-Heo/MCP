@@ -140,7 +140,7 @@ python train_PEBBLE_semi_mixup.py env=metaworld_sweep-into-v2 agent.params.actor
 ```
 
 ## Acknowledgement
-Our implementation benefits from the official codebase of [B-Pref](https://github.com/rll-research/BPref), [SURF](https://github.com/alinlab/SURF), [RUNE](https://github.com/rll-research/rune), and [MRN](https://github.com/RyanLiu112/MRN). We appreciate their insightful works.
+Our implementation benefits from the official codebase of [B-Pref](https://github.com/rll-research/BPref), [SURF](https://github.com/alinlab/SURF), [RUNE](https://github.com/rll-research/rune), [MRN](https://github.com/RyanLiu112/MRN), [QPA](https://github.com/huxiao09/QPA) and [RIME](https://github.com/CJReinforce/RIME_ICML2024?tab=readme-ov-file). We appreciate their insightful works.
 
 ## Citation
 ```latex
